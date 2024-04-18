@@ -10,11 +10,14 @@ p {
 }
 
 #buttonb {
-    margin-bottom: 10px;
+    margin-bottom: 147px;
     padding: 11px 30px;
     background-color: #407BFF;
     display: inline-block;
     border-radius: 20px;
+    margin-right: 20px;
+    margin-left: 82px;
+
 }
 
 #buttons {
@@ -22,8 +25,46 @@ p {
     display: inline-block;
     border-radius: 20px;
     padding: 11px 30px;
+    margin-right: 147px;
+
 }
 
-section {
+.kontejner {
     display: flex;
+}
+
+.prvni {
+    display: flex;
+
+}
+
+.firstpara {
+    width: 488px;
+    height: 65px;
+    margin: 42px 94px 30px 82px;
+}
+
+.jedna {
+    order: 2;
+}
+
+.dva {
+    display: flex;
+    flex-direction: column;
+    order: 1;
+}
+
+.traveler {
+    width: 425.88px;
+    margin-left: 94px;
+    margin-top: 60px;
+}
+
+h1 {
+    margin-top: 133px;
+    margin-left: 82px;
+}
+
+.cudl {
+    
 }

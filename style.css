@@ -17,6 +17,7 @@ p {
     border-radius: 20px;
     margin-right: 20px;
     margin-left: 82px;
+    margin-top: 30px;
 
 }
 
@@ -46,6 +47,7 @@ p {
 
 .jedna {
     order: 2;
+    flex-direction: column;
 }
 
 .dva {
@@ -63,8 +65,47 @@ p {
 h1 {
     margin-top: 133px;
     margin-left: 82px;
+    font-size: 28px;
+}
+.mapa,.plane,.cactus, .rv, .palm, .umbrella {
+    display: flex;
+    flex-direction: column;
+    border: #407BFF solid;
+    width: 170px;
+    height: 191px;
+    order: 1;
 }
 
-.cudl {
-    
+.foto {
+    height: 40px;
+    margin: 40px 62px 20px 62px;
+}
+
+.logo {
+    width: 140px;
+    height: 51px;
+    margin: 20px 15px 40px 15px;
+    font-size: 13px;
+    text-align: center;
+
+}
+
+.mainpara, h2 {
+    font-size: 16px;
+}
+
+.foto2 {
+    width: 50px;
+    height: 40px;
+    margin: 40px 60px 20px 60px;
+}
+
+.paratwo {
+    width: 430px;
+    height: 76px;
+    padding-left: 60px;
+}
+
+.nadpis1 {
+    padding-left: 60px;
 }

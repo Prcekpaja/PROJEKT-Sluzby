@@ -3,6 +3,7 @@ html { box-sizing: border-box; }
 
 body {
     font-family: 'montserrat';
+    background-color: #FAFAFA;
 }
 
 p {
@@ -70,10 +71,25 @@ h1 {
 .mapa,.plane,.cactus, .rv, .palm, .umbrella {
     display: flex;
     flex-direction: column;
-    border: #407BFF solid;
+    border-radius: 10px 10px 10px 10px;
     width: 170px;
     height: 191px;
     order: 1;
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 6px #407BFF1F;
+    margin-right: 20px;
+}
+
+.mapa {
+    margin-left: 82px;
+}
+
+.palm {
+    margin-left: 60px;
+}
+
+.palm, .rv, .umbrella {
+    margin-top: 80px;
 }
 
 .foto {
@@ -108,4 +124,17 @@ h1 {
 
 .nadpis1 {
     padding-left: 60px;
+}
+
+.delegodstavec {
+    padding-left: 82px;
+    padding-top: 120px;
+}
+
+.parathree {
+    padding-left: 82px;
+    width: 430px;
+    height: 76px;
+    padding-top: 17px;
+    padding-bottom: 97px;
 }

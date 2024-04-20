@@ -1,140 +1,276 @@
 html { box-sizing: border-box; }
 *, ::after, ::before { box-sizing: inherit; }
 
-body {
-    font-family: 'montserrat';
-    background-color: #FAFAFA;
+/* @media screen and (min-width: 1200px) { */
+    body {
+        font-family: 'montserrat';
+        background-color: #FAFAFA;
+    }
+
+    p {
+        color: #8B8B8B;
+    }
+
+    #buttonb {
+        margin-bottom: 147px;
+        padding: 11px 30px;
+        background-color: #407BFF;
+        display: inline-block;
+        border-radius: 20px;
+        margin-right: 20px;
+        margin-left: 82px;
+        margin-top: 30px;
+    }
+
+    #buttons {
+        margin-bottom: 147px;
+        padding: 11px 30px;
+        background-color: #8B8B8B;
+        display: inline-block;
+        border-radius: 20px;
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-top: 30px;
+    }
+
+    .kontejner {
+        display: flex;
+        justify-content: center;
+    }
+
+    .firstpara {
+        width: 488px;
+        height: 65px;
+        margin: 42px 94px 30px 82px;
+    }
+
+    .jedna {
+        order: 2;
+        flex-direction: column;
+    }
+
+    .dva {
+        display: flex;
+        flex-direction: column;
+        order: 1;
+    }
+
+    .flex {
+        flex-direction: column;
+    }
+
+    .traveler {
+        max-width: 425px;
+        width: 100%;
+        margin-left: 94px;
+        margin-top: 60px;
+    }
+
+    h1 {
+        margin-top: 133px;
+        margin-left: 82px;
+        font-size: 28px;
+        text-align: left;
+    }
+    .mapa,.plane,.cactus, .rv, .palm, .umbrella {
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px 10px 10px 10px;
+        /* width: 170px;
+        height: 191px; */
+        order: 1;
+        background-color: #FFFFFF;
+        box-shadow: 0px 4px 6px #407BFF1F;
+        margin-right: 20px;
+        align-items: center;
+    }
+
+    /* .mapa {
+        margin-left: 82px;
+    } */
+
+    .palm {
+        margin-left: 60px;
+    }
+
+    .palm, .rv, .umbrella {
+        margin-top: 80px;
+    }
+
+    .foto {
+        height: 40px;
+        margin: 40px 62px 20px 62px;
+    }
+
+    .logo {
+        width: 140px;
+        height: 51px;
+        margin: 20px 15px 40px 15px;
+        font-size: 13px;
+        text-align: center;
+    }
+
+    .mainpara, h2 {
+        font-size: 16px;
+        margin-left: 60px;
+    }
+
+    .foto2 {
+        width: 50px;
+        height: 40px;
+        margin: 40px 60px 20px 60px;
+    }
+
+    .paratwo {
+        width: 430px;
+        height: 76px;
+        
+    }
+
+    .delegodstavec {
+        /* padding-left: 82px; */
+        padding-top: 120px;
+    }
+
+    .parathree {
+        /* padding-left: 82px; */
+        width: 430px;
+        height: 76px;
+        padding-top: 17px;
+        padding-bottom: 97px;
+    }
+
+    .delegtwo{
+        display: flex;
+        max-width: 550px;
+        width: 100%;
+    }
+
+    .deleg {
+        max-width: 430px;
+        width: 100%;
+    }
+
+    .sluzbytwo {
+        display: flex;
+        order: 1;
+        max-width: 550px;
+        width: 100%;
+    }
+
+    .sluzby {
+        order: 2;
+        max-width: 430px;
+        width: 100%;
+    }
+
+
+
+@media screen and (min-width: 640px) and (max-width: 1200px) {
+
+    body {
+        font-family: 'montserrat';
+        background-color: #FAFAFA;
+    }
+
+    .kontejner {
+        display: block;
+    }
+
+    .jedna {
+        order: 1;
+    }
+
+    .dva {
+        order: 2;
+    }
+
+    .traveler {
+        display: block;
+        max-width: 400px;
+        width: 100%;
+        margin-top: 60px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    h1 {
+        text-align: center;
+        margin: auto;
+        margin-top: 30px;    
+    }
+
+    h2 {
+        margin-left: 0px;
+    }
+
+    .firstpara, .mainpara {
+        margin-top: 42px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .cudl {
+        margin-top: 0px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #buttonb, #buttons {
+        margin-bottom: 0px;
+    }
+
+    .sluzby {
+        margin-top: 80px;
+        display: block;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .sluzbytwo, .delegtwo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: none;
+    }
+
+    .delegprvni {
+        margin-top: 80px;
+        display: block;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    
+    }
+
+    .deleg {
+        max-width: none;
+    }
+
+    .delegodstavec {
+        padding: 0;
+    }
+
+    .palm, .rv, .umbrella {
+        margin-top: 0;
+    }
+    .palm {
+        margin-left: 0;
+    }
+
 }
 
-p {
-    color: #8B8B8B;
-}
+@media screen and (min-width: 0px) and (max-width: 640px) {
+    body {
+        font-family: 'montserrat';
+        background-color: #FAFAFA;
+    }
 
-#buttonb {
-    margin-bottom: 147px;
-    padding: 11px 30px;
-    background-color: #407BFF;
-    display: inline-block;
-    border-radius: 20px;
-    margin-right: 20px;
-    margin-left: 82px;
-    margin-top: 30px;
+    .jedna {
+        order: 1;
+    }
 
-}
 
-#buttons {
-    background-color: #8B8B8B;
-    display: inline-block;
-    border-radius: 20px;
-    padding: 11px 30px;
-    margin-right: 147px;
-
-}
-
-.kontejner {
-    display: flex;
-}
-
-.prvni {
-    display: flex;
-
-}
-
-.firstpara {
-    width: 488px;
-    height: 65px;
-    margin: 42px 94px 30px 82px;
-}
-
-.jedna {
-    order: 2;
-    flex-direction: column;
-}
-
-.dva {
-    display: flex;
-    flex-direction: column;
-    order: 1;
-}
-
-.traveler {
-    width: 425.88px;
-    margin-left: 94px;
-    margin-top: 60px;
-}
-
-h1 {
-    margin-top: 133px;
-    margin-left: 82px;
-    font-size: 28px;
-}
-.mapa,.plane,.cactus, .rv, .palm, .umbrella {
-    display: flex;
-    flex-direction: column;
-    border-radius: 10px 10px 10px 10px;
-    width: 170px;
-    height: 191px;
-    order: 1;
-    background-color: #FFFFFF;
-    box-shadow: 0px 4px 6px #407BFF1F;
-    margin-right: 20px;
-}
-
-.mapa {
-    margin-left: 82px;
-}
-
-.palm {
-    margin-left: 60px;
-}
-
-.palm, .rv, .umbrella {
-    margin-top: 80px;
-}
-
-.foto {
-    height: 40px;
-    margin: 40px 62px 20px 62px;
-}
-
-.logo {
-    width: 140px;
-    height: 51px;
-    margin: 20px 15px 40px 15px;
-    font-size: 13px;
-    text-align: center;
-
-}
-
-.mainpara, h2 {
-    font-size: 16px;
-}
-
-.foto2 {
-    width: 50px;
-    height: 40px;
-    margin: 40px 60px 20px 60px;
-}
-
-.paratwo {
-    width: 430px;
-    height: 76px;
-    padding-left: 60px;
-}
-
-.nadpis1 {
-    padding-left: 60px;
-}
-
-.delegodstavec {
-    padding-left: 82px;
-    padding-top: 120px;
-}
-
-.parathree {
-    padding-left: 82px;
-    width: 430px;
-    height: 76px;
-    padding-top: 17px;
-    padding-bottom: 97px;
 }

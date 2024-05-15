@@ -72,6 +72,17 @@ html { box-sizing: border-box; }
         font-size: 28px;
         text-align: left;
     }
+
+    h1::after {
+        content: '';
+        background-color: #407BFF;
+        display: block;
+        height: 2px;
+        width: 60px;
+        margin-top: 10px;
+        margin-left: 0;
+        }
+
     .mapa,.plane,.cactus, .rv, .palm, .umbrella {
         display: flex;
         flex-direction: column;
@@ -203,6 +214,10 @@ html { box-sizing: border-box; }
         margin-top: 30px;    
     }
 
+    h1::after {
+        margin: 10px auto 0 auto;
+    }
+
     h2 {
         margin-left: 0px;
     }
@@ -300,6 +315,9 @@ html { box-sizing: border-box; }
         text-align: center;
         margin: auto;
         margin-top: 30px;    
+    }
+    h1::after {
+        margin: 10px auto 0 auto;
     }
 
     h2 {
